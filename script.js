@@ -1,6 +1,6 @@
 function checkAnswer() {
 
-  var correctAnswer = "Chopper";  // ✨ PUT YOUR REAL ANSWER HERE
+  var correctAnswer = "chopper";  // ✨ Chopper
 
   var userAnswer = document
     .getElementById("answer")
@@ -18,3 +18,5 @@ function checkAnswer() {
 function nextPage() {
   window.location.href = "birthday.html";
 }
+
+
