@@ -15,6 +15,9 @@ function checkAnswer() {
       "Try again baby 😝";
   }
 }
+function nextPage() {
+  window.location.href = "birthday.html";
+}
 
 
 
