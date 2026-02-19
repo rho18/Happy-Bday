@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-family: cursive;
+  background: #70abff;
+  padding-top: 100px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.letter {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.birthday-bg {
+  background: linear-gradient(to right, #ff758c, #ffa07d);
+  color: white;
+}
+
+.pop {
+  animation: pop 1s infinite alternate;
+}
+
+@keyframes pop {
+  from { transform: scale(1); }
+  to { transform: scale(1.2); }
+}
