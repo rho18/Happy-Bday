@@ -1,6 +1,7 @@
+alert("JS is working");
 function checkAnswer() {
 
-  var correctAnswer = "chopper";  // ✨ Chopper
+  var correctAnswer = "chopper";
 
   var userAnswer = document
     .getElementById("answer")
@@ -15,8 +16,5 @@ function checkAnswer() {
   }
 }
 
-function nextPage() {
-  window.location.href = "birthday.html";
-}
 
 
